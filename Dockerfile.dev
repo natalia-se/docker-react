@@ -1,0 +1,12 @@
+FROM node:20.12.2-alpine
+
+WORKDIR "/app"
+
+COPY package.json .
+
+RUN npm install
+
+# // if there is volumes, we can delete this line
+COPY . . 
+
+CMD ["npm", "run", "start"]
