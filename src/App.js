@@ -19,6 +19,8 @@ function App() {
         </a>
       </header>
       <p>Some changes</p>
+      <p>Some more changes</p>
+      <p>Welcome to my React application!</p>
     </div>
   );
 }
